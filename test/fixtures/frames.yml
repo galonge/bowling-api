@@ -1,0 +1,17 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  frame_no: 1
+  ball_one_pins: 1
+  ball_two_pins: 1
+  ball_three_pins: 1
+  score: 1
+  player: one
+
+two:
+  frame_no: 1
+  ball_one_pins: 1
+  ball_two_pins: 1
+  ball_three_pins: 1
+  score: 1
+  player: two
