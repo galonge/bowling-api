@@ -11,7 +11,7 @@ class Game < ApplicationRecord
   validates_presence_of :created_by
 
  # length of created_by must not be greater than 30 characters
-  validates_length_of :created_by, maximum: 30
+  validates_length_of :created_by, maximum: 50
 
 
 end
