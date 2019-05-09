@@ -20,5 +20,7 @@ class API::V1::FramesController < ApplicationController
       @frame ||= Frame.find_by!(frame_number: params[:frame_number], player: player)
     end
 
-  
+    def frame_params
+      params.permit(:ball_one_pins, :ball_two_pins, :ball_three_pins)
+    end
 end
