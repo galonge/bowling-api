@@ -26,3 +26,5 @@
 
 * Repeat the process for subsequent frames.
 * At the 10th frame, the game ends. The bowling API won't allow more than 10 frames.
+
+* Please see the ``api_documentation.docx`` in the application root directory for full api details.
