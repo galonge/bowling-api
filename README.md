@@ -11,7 +11,7 @@
 ## Testing APIs and API Documentation
 * _Optional_: To run all RSpec tests, type ```$ rspec```. 
 
-* The api documentation is contained in the api_documentation.txt file in the root folder
+* The api documentation is contained in the api_documentation.docx file in the root folder
 
 ### Setting up a Game
 * To start a game, call this endpoint with a POST request <br/> **POST** ```localhost:3000/api/v1/games?created_by={Creator Name}```. This will create a new game  <br/>
