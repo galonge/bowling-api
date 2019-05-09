@@ -10,10 +10,10 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2019_05_06_190242) do
+ActiveRecord::Schema.define(version: 2019_05_09_182446) do
 
   create_table "frames", force: :cascade do |t|
-    t.integer "frame_no"
+    t.integer "frame_number"
     t.integer "ball_one_pins", default: 0
     t.integer "ball_two_pins", default: 0
     t.integer "ball_three_pins", default: 0

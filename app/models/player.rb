@@ -12,7 +12,7 @@ class Player < ApplicationRecord
   validates_presence_of :name
 
 
- # a player name must not be longer than 30 characters
-  validates_length_of :name, maximum: 30
+ # a player name must not be longer than 50 characters
+  validates_length_of :name, maximum: 50
 
 end

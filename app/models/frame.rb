@@ -16,8 +16,8 @@ class Frame < ApplicationRecord
 
 
 #The maximum score a frame can have is 300 or less. no greater
-  # validates_numericality_of :score, greater_than_or_equal_to: 0, less_than_or_equal_to: 300
-  validates_numericality_of :score, greater_than_or_equal_to: 0
+  validates_numericality_of :score, greater_than_or_equal_to: 0, less_than_or_equal_to: 300
+  # validates_numericality_of :score, greater_than_or_equal_to: 0
 
 
 
