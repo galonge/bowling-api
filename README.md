@@ -22,7 +22,7 @@
 * To display the entire scoreboard, call this endpoint with a GET request **GET** ```localhost:3000/api/v1/games/{game_id}```. This displays the entire scoreboard including players, frames and scores.
 
 ### Inserting Data (Frame scores)
-* First, we create the first frame of the first player. We do this by calling this endpoint with a PUT request **PUT** ```localhost:3000/api/v1/games/{game_id}/players/{player_id}/frames?ball_one_pins={score_1}&ball_two_pins={score_2}```
+* We do this by calling this endpoint with a POST request, passing necessary scores. **POST** ```localhost:3000/api/v1/games/{game_id}/players/{player_id}/frames?ball_one_pins={score_1}&ball_two_pins={score_2}```
 
 * Repeat the process for subsequent frames.
 * At the 10th frame, the game ends. The bowling API won't allow more than 10 frames.
