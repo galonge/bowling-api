@@ -12,6 +12,12 @@
 * _Optional_: To run all RSpec tests, type ```$ rspec```. 
 
 * The api documentation is contained in the api_documentation.docx file in the root folder
+** Variables **
+*** {Creator Name} - String Name of the game creator e.g. John Doe
+*** {Player Name} - String Name of player e.g. Player One
+*** {game_id} - Integer id of the current game. used to display scores. 
+*** {player_id} - Integer id of the player
+** {score_1}, {score_2} or {score_3} - Integer value between 1-10 representing the score for a ball.
 
 ### Setting up a Game
 * To start a game, call this endpoint with a POST request <br/> **POST** ```localhost:3000/api/v1/games?created_by={Creator Name}```. This will create a new game  <br/>
